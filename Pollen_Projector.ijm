@@ -1,6 +1,7 @@
 //This script has been created using the Macro language of ImageJ
 //The input for this script is a folder containing multistack (i.e. z-stacked) greyscale images containing pollen grains
 //The output of this script are three projections for each pollen grain identified, Standard Deviation, Minimum Intensity and Extended Focus (R) Richard Wheeler (http://www.richardwheeler.net/contentpages/text.php?gallery=ImageJ_Macros&file=Extended_Depth_of_Field&type=ijm)
+//Please contact marcel.polling@naturalis.nl for any questions regarding the script
 
 input = getDirectory("Choose Input Directory");
 output = getDirectory("Choose Output Directory");
